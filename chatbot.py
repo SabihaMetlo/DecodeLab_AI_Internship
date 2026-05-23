@@ -7,8 +7,7 @@ while True:
 
     if user in ["hello", "hi", "hey"]:
         print("Bot: Hi there!")
-
-
+        
     elif user == "how are you":
         print("Bot: I am fine!")
 
@@ -18,7 +17,8 @@ while True:
     elif user == "favorite color":
         print("Bot: I like blue.")
 
-    
+    elif user == "time":
+        print("Bot: I cannot check real time yet.")
 
     elif user == "bye":
         print("Bot: Goodbye!")
